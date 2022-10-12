@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/communication_title">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/calendar"
+                    android:title="@string/calendar"
+                    android:icon="@drawable/ic_baseline_calendar_month_24"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/admin_title">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/checkin"
+                    android:title="@string/checkin"
+                    android:icon="@drawable/ic_monitor_attendance"/>
+                <item android:id="@+id/documents"
+                    android:title="@string/documents"
+                    android:icon="@drawable/ic_documents"/>
+                <item android:id="@+id/listUsrs"
+                    android:title="@string/listUsrs"
+                    android:icon="@drawable/ic_list_usrs"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/tools_title">
+        <menu>
+            <group>
+                <item android:id="@+id/gallery"
+                    android:title="@string/gallery"
+                    android:icon="@drawable/ic_gallery"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/system_title">
+        <menu>
+            <group>
+                <item android:id="@+id/information"
+                    android:title="@string/information"
+                    android:icon="@drawable/ic_info"/>
+                <item android:id="@+id/close_session"
+                    android:title="@string/session"
+                    android:icon="@drawable/ic_close_session"/>
+            </group>
+        </menu>
+    </item>
+</menu>

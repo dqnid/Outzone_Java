@@ -1,0 +1,101 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Outzone.NoActionBar" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- Primary brand color. -->
+        <item name="colorAccent">@color/blue_complementary</item>
+        <item name="colorPrimary">@color/orange_base</item>
+        <item name="colorPrimaryVariant">@color/orange_variant</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue_complementary</item>
+        <item name="colorSecondaryVariant">@color/blue_variant</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorOnSecondary</item>
+        <!-- Customize your theme here. -->
+        <item name="dialogCornerRadius">10dip</item>
+        <item name="drawerLayoutStyle">@style/navigation_drawer</item>
+        <item name="backgroundColor">@color/dark_gray</item>
+
+        <item name="android:datePickerDialogTheme">@style/date_picker</item>
+    </style>
+
+    <style name="Theme.Outzone.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Outzone.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="text_view_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:background">@color/medium_gray</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="text_input_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:background">@color/dark_gray</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:color">@color/white</item>
+    </style>
+
+    <style name="navigation_drawer">
+        <item name="backgroundColor">@color/dark_gray</item>
+        <item name="backgroundTint">@color/dark_gray</item>
+    </style>
+
+    <style name="button_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/rounded_button</item>
+    </style>
+
+    <style name="base_window">
+        <item name="android:background">@color/dark_gray</item>
+    </style>
+
+    <style name="dialog_info">
+        <item name="android:background">@color/dark_gray</item>
+    </style>
+
+    <style name="dialog_add_event">
+        <item name="android:background">@color/dark_gray</item>
+    </style>
+
+    <style name="text_view_title">
+        <item name="android:textSize">30dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/blue_complementary</item>
+    </style>
+    <style name="text_view_element">
+        <item name="android:textSize">24dp</item>
+        <item name="android:background">@color/dark_gray</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="date_picker" parent="android:Theme.Material.Dialog">
+        <item name="android:background">@color/dark_gray</item>
+        <item name="dialogCornerRadius">10dip</item>
+        <item name="cornerRadius">10dip</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:colorAccent">@color/blue_complementary</item>
+    </style>
+
+</resources>
